@@ -31,7 +31,7 @@ class SignIn extends React.Component {
 
   };
 
-  handleChange = (event) => {
+  handleChange = event => {
     const { value, name } = event.target;
 
     this.setState({ [name]: value });
@@ -67,7 +67,7 @@ class SignIn extends React.Component {
               type="button"
               isGoogleSignIn
             >
-              Sign In with Google
+              Google Sign In
             </CustomButton>
           </div>
         </form>
